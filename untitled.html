@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+	<head>
+	<title>Bootstrap Example</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous">
+  </script>
+  <script src="basketball.js"></script>
+  <link rel="stylesheet" href="basketball.css">
+  
+	</head>
+	<body>
+		<div class="jumbotron text-center">
+				<a href="untitled.html"><img src="banner.png"></a>
+		</div>
+		<!-- Unneeded
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-8">
+					<ul class="nav nav-pills">
+						<li class=""><a href="#">Home</a></li>
+						<li><a href="#">Menu 1</a></li>
+					    <li><a href="#">Menu 2</a></li>
+					    <li><a href="#">Menu 3</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<input id="search" type="text" placeholder="Search for team...">
+				</div>
+			</div>
+		</div>
+		-->
+		<div class="container" id="maincontainer">
+			<div class="row" id="dateandsearch">
+				<div class="col-lg-1" id="datelabelcol text-center">
+					<label for="date" id="datelabel">-Date:-</label>
+				</div>
+				<div class="col-lg-4" id="datecol">
+					<input id="date" type="date" class="form-control">
+				</div>
+				<div class="col-lg-1" id="datebuttoncol">
+					<button id = "datebutton" type="button" class="btn btn-primary">Search<br>Date</button>
+				</div>
+				<div class="col-lg-1" id="searchlabelcol text-center">
+					<label for="search" id="searchlabel">Search:</label>
+				</div>
+				<div class="col-lg-5" id="searchcol">
+					<input id="search" type="text" placeholder="Search for team..." class="form-control">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6" id="LiveGames">
+					<h2 id="gamesheader">Games:</h2>
+				</div>
+				<div class="col-lg-6 text-right" id="LiveGames">
+					<h2 id="gamesheader">All Games Based on UTC Time</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12" id="LiveGamesScrollbar">
+					<pre class="pre-scrollable container">
+						<ul id="list"><!--
+							<li class="text-center">
+								<div class="accordian">
+									<h3 class="shrink">Expanding Menu1</h3>
+									<p>This is a game of teams </p>
+								</div>
+							</li>
+							<li class="text-center">
+								<div class="accordian">
+									<h3 class="shrink">Expanding Menu2</h3>
+									<p>This is a game of teams </p>
+								</div>
+							</li>
+							<li class="text-center">
+								<div class="accordian">
+									<h3 class="shrink">Expanding Menu3</h3>
+									<p>Score1: <br> Score2:  </p>
+								</div>
+							</li> -->
+							
+						</ul>
+					</pre>
+				</div>
+			</div>
+		</div>
+	</body>
